@@ -1,5 +1,9 @@
-Youtuber = "" #some string variables
+adj = input("Adjective: ")
+verb1 = input("Verb: ")
+verb2 = input("Verb: ")
+famous_person = input("Famous_Person: ")
 
-print("subscribe to " + Youtuber)
-print("subscribe to{}".format(Youtuber))
-print(f"subscribe to {Youtuber}")
+madlib = f"computer programming is so {adj} it makes me exited all the time because \
+i love to {verb1}. stay hydrated and {verb2} like you are {famous_person}!"
+
+print(madlib)
